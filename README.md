@@ -1,4 +1,15 @@
-# To run on local host
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/antriiksh/budgetTrackerReact
+```
+
+Go to the project directory
+
+Install dependencies
+
 ```bash
   npm install
 ```
@@ -6,9 +17,12 @@
 ```bash
   npm start
 ```
+
+
+Start the server
+
 ```bash
-  If no follow up link is provided, you can change the port on package.json to a diffrent port
+  npm run start
 ```
-```http
-If no follow up link is provided, you can change the port on package.json to a diffrent port
-```
+
+If not starting or providing a follow up link then change the PORT in package.json
